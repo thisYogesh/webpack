@@ -1,10 +1,12 @@
 {
   "scripts": {
     "init-ex": "webpack --config init/webpack.config.js",
-    "css-ex": "webpack --config css-loader/webpack.config.js"
+    "css-ex": "webpack --config css-ex/webpack.config.js",
+    "image-ex": "webpack --config image-ex/webpack.config.js"
   },
   "dependencies": {
     "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
     "style-loader": "^0.23.1",
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.0"
