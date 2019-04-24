@@ -1,5 +1,6 @@
+import './fonts.css'
 import './style.css'
 
-window.runfunction = function(){
+window.addclass = function(){
     document.body.classList.add('body')
 }

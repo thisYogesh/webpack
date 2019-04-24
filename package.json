@@ -2,7 +2,8 @@
   "scripts": {
     "init-ex": "webpack --config init/webpack.config.js",
     "css-ex": "webpack --config css-ex/webpack.config.js",
-    "image-ex": "webpack --config image-ex/webpack.config.js"
+    "image-ex": "webpack --config image-ex/webpack.config.js",
+    "font-ex": "webpack --config fonts-ex/webpack.config.js"
   },
   "dependencies": {
     "css-loader": "^2.1.1",
