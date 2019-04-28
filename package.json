@@ -3,7 +3,8 @@
     "init-ex": "webpack --config init/webpack.config.js",
     "css-ex": "webpack --config css-ex/webpack.config.js",
     "image-ex": "webpack --config image-ex/webpack.config.js",
-    "font-ex": "webpack --config fonts-ex/webpack.config.js"
+    "font-ex": "webpack --config fonts-ex/webpack.config.js",
+    "htmlwp-ex": "webpack --config htmlwp-ex/webpack.config.js"
   },
   "dependencies": {
     "css-loader": "^2.1.1",
@@ -11,5 +12,9 @@
     "style-loader": "^0.23.1",
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^2.0.1",
+    "html-webpack-plugin": "^3.2.0"
   }
 }
