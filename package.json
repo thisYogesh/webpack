@@ -5,9 +5,13 @@
     "image-ex": "webpack --config image-ex/webpack.config.js",
     "font-ex": "webpack --config fonts-ex/webpack.config.js",
     "htmlwp-ex": "webpack --config htmlwp-ex/webpack.config.js",
-    "dev-mode-ex": "webpack-dev-server --open --config dev-mode-ex/webpack.config.js"
+    "dev-mode-ex": "webpack-dev-server --open --config dev-mode-ex/webpack.config.js",
+    "myloader": "webpack --config custom-loader/webpack.config.js"
   },
   "dependencies": {
+    "@babel/core": "^7.6.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
     "css-loader": "^2.1.1",
     "file-loader": "^3.0.1",
     "style-loader": "^0.23.1",
